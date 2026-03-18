@@ -1,0 +1,301 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.background-transparent {
+    width: 100%;
+    height: 500px;
+
+    background: linear-gradient(
+    to right,
+    rgba(22, 153, 147, 0.8),
+    rgba(104, 86, 160, 0.8)
+  ),
+    url("../MediaFiles/kozani\ 1.png");
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+
+}
+
+.top-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.section-with-bg {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.social-media-part {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+  color: white;
+}
+
+.logo-part {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.main-heading-top {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.main-heading-top h1 {
+  font-weight: 800;
+  font-size: 32px;
+  color: #FFFFFF;
+  line-height: 1px;
+  height: auto;
+}
+
+.days-left {
+  line-height: 0.1px;
+  color: #F9F7F3;
+  font-size: 32px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.number-days {
+  line-height: 1;
+  margin: 0;
+  color: #FFE082;
+  font-size: 74px;
+  font-weight: 800;
+}
+
+.days-left-top-section {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin-top: 5px;
+  height: auto;
+}
+
+.colorful-heading-top-part {
+    background-color: white;
+    display: inline-block;
+    padding: 2px;
+    margin-top: 15px;
+}
+
+.colorful-heading-top-part h1 {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1;
+    display: inline-block; 
+    background: linear-gradient(to right, #4712E5, #FF4845);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    padding: 10px;
+}
+
+.card-example-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.card-example-heading h1,
+.form-fillin-heading h1 {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 1;
+  display: inline-block; 
+  background: linear-gradient(to right, #0FA3B1, #6856A0);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+  padding: 0;
+}
+
+.card-example-heading p,
+.form-fillin-heading p {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1;
+  font-style: italic;
+  margin-top: 8px;
+  padding: 0;
+  color: #606060;
+}   
+
+.card-example-section {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+}
+
+.example-img-section-left img {
+    width: 684px;
+    height: 907px;
+}
+
+.right-section img {
+    width: 132px;
+    height: 132px;
+}
+
+.right-section p {
+    font-size: 32px;
+    font-weight: 800;
+    color: #FF4845;
+    margin: 0;
+    padding: 0;
+}
+
+.right-section {
+    margin-top: 580px;
+}
+
+.form-fillin-heading {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.gradient-input-form-part {
+  font-size: 20px;
+  font-style: italic;
+  padding: 2px 2px;
+  border: 0.5px solid transparent;
+  border-radius: 0px;
+  background-image: 
+  linear-gradient(#fff, #fff),
+  linear-gradient(45deg, #0FA3B1, #6856A0); 
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  outline: none;
+  width: 515px;
+  height: 50px;
+  text-align: center;
+}
+
+.form-structure {
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-top: 20px;
+
+}
+
+.form-part-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-part-input p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1;
+  width: auto;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  padding: 0;
+  display: inline-block; 
+  background: linear-gradient(to right, #0FA3B1, #6856A0);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.form-structure button {
+  width: 213px;
+  height: 50px;
+  background-color: #0FA3B1;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 22px;
+  border: 0px;
+  margin-top: 20px;
+}
+
+.footer-section {
+  margin-top: 50px;
+  padding: 0;
+  width: 100%;
+  height: 735px;
+
+  background: linear-gradient(
+    to right,
+    rgba(22, 153, 147, 0.8),
+    rgba(104, 86, 160, 0.8)
+  );
+  background-size: cover;
+  background-position: center;
+}
+
+.contact-info-footer-section {
+  margin-top: 10px;
+}
+
+.phone-number-footer,
+.address-footer,
+.email-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.phone-number-footer h2,
+.address-footer h2,
+.email-footer h2 {
+  margin-top: 20px;
+  padding: 0;
+  font-size: 24px;
+  line-height: 1;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.phone-number-footer p,
+.address-footer p,
+.email-footer p {
+  margin: 0;
+  padding: 0;
+  font-size: 32px;
+  line-height: 1;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.footer-section-inside {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 30px;
+}

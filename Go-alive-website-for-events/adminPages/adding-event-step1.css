@@ -1,0 +1,1466 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media (min-width: 1025px) {
+
+.background-transparent {
+    width: 100%;
+    height: 500px;
+
+    background: linear-gradient(
+    to right,
+    rgba(22, 153, 147, 0.8),
+    rgba(104, 86, 160, 0.8)
+  ),
+    url("../MediaFiles/kozani\ 1.png");
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+
+}
+
+.top-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.section-with-bg {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.social-media-part {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+  color: white;
+}
+
+.logo-part {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.login-button {
+  text-decoration: none;
+  color: white;
+
+  transition: 0.6s ease-in-out;
+}
+
+.login-button:hover {
+  color: #1df2f0;
+  transform: scale(1.1);
+}
+
+.fab {
+  font-size: 30px; 
+  color: #FFFFFF;
+
+  transition: 0.6s ease-in-out;
+}
+
+.fab.fa-facebook:hover{
+  color: #1df2f0;
+  transform: scale(1.1) rotate(5deg);
+}
+
+.fab.fa-instagram:hover{
+  color: #1df2f0;
+  transform: scale(1.1) rotate(5deg);
+}
+
+.fab.fa-linkedin:hover{
+  color: #1df2f0;
+  transform: scale(1.1) rotate(5deg);
+}
+
+.fab.fa-tiktok:hover{
+  color: 	#1df2f0;
+  transform: scale(1.1) rotate(5deg);
+}
+
+.main-heading-top {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.main-heading-top h1 {
+  font-weight: 800;
+  font-size: 32px;
+  color: #FFFFFF;
+  line-height: 1px;
+  height: auto;
+}
+
+.days-left {
+  line-height: 0.1px;
+  color: #F9F7F3;
+  font-size: 32px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.number-days {
+  line-height: 1;
+  margin: 0;
+  color: #FFE082;
+  font-size: 74px;
+  font-weight: 800;
+}
+
+.days-left-top-section {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin-top: 5px;
+  height: auto;
+}
+
+.colorful-heading-top-part {
+    background-color: white;
+    display: inline-block;
+    padding: 2px;
+    margin-top: 15px;
+}
+
+.colorful-heading-top-part h1 {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1;
+    display: inline-block; 
+    background: linear-gradient(to right, #4712E5, #FF4845);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    padding: 10px;
+}
+
+.card-example-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.card-example-heading h1,
+.form-fillin-heading h1 {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 1;
+  display: inline-block; 
+  background: linear-gradient(to right, #0FA3B1, #6856A0);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+  padding: 0;
+}
+
+.card-example-heading p,
+.form-fillin-heading p {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1;
+  font-style: italic;
+  margin-top: 8px;
+  padding: 0;
+  color: #606060;
+}   
+
+.card-example-section {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
+.example-img-section-left img {
+    width: 410px;
+    height: 446px;
+}
+
+.right-section img {
+    width: 132px;
+    height: 132px;
+}
+
+.right-section p {
+    font-size: 32px;
+    font-weight: 800;
+    color: #FF4845;
+    margin: 0;
+    padding: 0;
+}
+
+.right-section {
+    margin-top: 180px;
+}
+
+.form-fillin-heading {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.gradient-input-form-part {
+  font-size: 20px;
+  font-style: italic;
+  padding: 2px 2px;
+  border: 0.5px solid transparent;
+  border-radius: 0px;
+  background-image: 
+  linear-gradient(#fff, #fff),
+  linear-gradient(45deg, #0FA3B1, #6856A0); 
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  outline: none;
+  width: 515px;
+  height: 50px;
+  text-align: center;
+}
+
+.form-structure {
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-top: 20px;
+
+}
+
+.form-part-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-part-input p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1;
+  width: auto;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  padding: 0;
+  display: inline-block; 
+  background: linear-gradient(to right, #0FA3B1, #6856A0);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.form-structure button {
+  width: 213px;
+  height: 50px;
+  background-color: #0FA3B1;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 22px;
+  border: 0px;
+  margin-top: 20px;
+
+  background: linear-gradient(to right, #6856A0 50%, #0FA3B1 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+
+  cursor: pointer;
+
+  transition: background-position 0.4s ease, color 0.4s ease;
+  transition: 0.8s;
+}
+
+.form-structure button:hover {
+  background-position: left bottom;
+  transform: scale(1.05);
+}
+
+.footer-section {
+  margin-top: 50px;
+  padding: 0;
+  width: 100%;
+  height: auto;
+
+  background: linear-gradient(
+    to right,
+    rgba(22, 153, 147, 0.8),
+    rgba(104, 86, 160, 0.8)
+  );
+  background-size: cover;
+  background-position: center;
+}
+
+.contact-info-footer-section {
+  margin-top: 10px;
+}
+
+.phone-number-footer,
+.address-footer,
+.email-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.phone-number-footer h2,
+.address-footer h2,
+.email-footer h2 {
+  margin-top: 20px;
+  padding: 0;
+  font-size: 24px;
+  line-height: 1;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.phone-number-footer p,
+.address-footer p,
+.email-footer p {
+  margin: 0;
+  padding: 0;
+  font-size: 32px;
+  line-height: 1;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.footer-section-inside {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 30px;
+}
+
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+
+.background-transparent {
+    width: 100%;
+    height: 500px;
+
+    background: linear-gradient(
+    to right,
+    rgba(22, 153, 147, 0.8),
+    rgba(104, 86, 160, 0.8)
+  ),
+    url("../MediaFiles/kozani\ 1.png");
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+
+}
+
+.top-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.section-with-bg {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.social-media-part {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+  color: white;
+}
+
+.logo-part {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.login-button {
+  text-decoration: none;
+  color: white;
+
+  transition: 0.6s ease-in-out;
+}
+
+.login-button:hover {
+  color: #1df2f0;
+  transform: scale(1.1);
+}
+
+.fab {
+  font-size: 30px; 
+  color: #FFFFFF;
+
+  transition: 0.6s ease-in-out;
+}
+
+.fab.fa-facebook:hover{
+  color: #1df2f0;
+  transform: scale(1.1) rotate(5deg);
+}
+
+.fab.fa-instagram:hover{
+  color: #1df2f0;
+  transform: scale(1.1) rotate(5deg);
+}
+
+.fab.fa-linkedin:hover{
+  color: #1df2f0;
+  transform: scale(1.1) rotate(5deg);
+}
+
+.fab.fa-tiktok:hover{
+  color: 	#1df2f0;
+  transform: scale(1.1) rotate(5deg);
+}
+
+.main-heading-top {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.main-heading-top h1 {
+  font-weight: 800;
+  font-size: 32px;
+  color: #FFFFFF;
+  line-height: 1px;
+  height: auto;
+}
+
+.days-left {
+  line-height: 0.1px;
+  color: #F9F7F3;
+  font-size: 32px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.number-days {
+  line-height: 1;
+  margin: 0;
+  color: #FFE082;
+  font-size: 74px;
+  font-weight: 800;
+}
+
+.days-left-top-section {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin-top: 5px;
+  height: auto;
+}
+
+.colorful-heading-top-part {
+    background-color: white;
+    display: inline-block;
+    padding: 2px;
+    margin-top: 15px;
+}
+
+.colorful-heading-top-part h1 {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1;
+    display: inline-block; 
+    background: linear-gradient(to right, #4712E5, #FF4845);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    padding: 10px;
+}
+
+.card-example-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.card-example-heading h1,
+.form-fillin-heading h1 {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 1;
+  display: inline-block; 
+  background: linear-gradient(to right, #0FA3B1, #6856A0);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+  padding: 0;
+}
+
+.card-example-heading p,
+.form-fillin-heading p {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1;
+  font-style: italic;
+  margin-top: 8px;
+  padding: 0;
+  color: #606060;
+}   
+
+.card-example-section {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
+.example-img-section-left img {
+    width: 410px;
+    height: 446px;
+}
+
+.right-section img {
+    width: 132px;
+    height: 132px;
+}
+
+.right-section p {
+    font-size: 32px;
+    font-weight: 800;
+    color: #FF4845;
+    margin: 0;
+    padding: 0;
+}
+
+.right-section {
+    margin-top: 180px;
+}
+
+.form-fillin-heading {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.gradient-input-form-part {
+  font-size: 20px;
+  font-style: italic;
+  padding: 2px 2px;
+  border: 0.5px solid transparent;
+  border-radius: 0px;
+  background-image: 
+  linear-gradient(#fff, #fff),
+  linear-gradient(45deg, #0FA3B1, #6856A0); 
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  outline: none;
+  width: 515px;
+  height: 50px;
+  text-align: center;
+}
+
+.form-structure {
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-top: 20px;
+
+}
+
+.form-part-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-part-input p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1;
+  width: auto;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  padding: 0;
+  display: inline-block; 
+  background: linear-gradient(to right, #0FA3B1, #6856A0);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.form-structure button {
+  width: 213px;
+  height: 50px;
+  background-color: #0FA3B1;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 22px;
+  border: 0px;
+  margin-top: 20px;
+
+  background: linear-gradient(to right, #6856A0 50%, #0FA3B1 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+
+  cursor: pointer;
+
+  transition: background-position 0.4s ease, color 0.4s ease;
+  transition: 0.8s;
+}
+
+.form-structure button:hover {
+  background-position: left bottom;
+  transform: scale(1.05);
+}
+
+.footer-section {
+  margin-top: 50px;
+  padding: 0;
+  width: 100%;
+  height: auto;
+
+  background: linear-gradient(
+    to right,
+    rgba(22, 153, 147, 0.8),
+    rgba(104, 86, 160, 0.8)
+  );
+  background-size: cover;
+  background-position: center;
+}
+
+.contact-info-footer-section {
+  margin-top: 10px;
+}
+
+.phone-number-footer,
+.address-footer,
+.email-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.phone-number-footer h2,
+.address-footer h2,
+.email-footer h2 {
+  margin-top: 20px;
+  padding: 0;
+  font-size: 24px;
+  line-height: 1;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.phone-number-footer p,
+.address-footer p,
+.email-footer p {
+  margin: 0;
+  padding: 0;
+  font-size: 32px;
+  line-height: 1;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.footer-section-inside {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 30px;
+}
+
+}
+
+@media (max-width: 767px) and (min-width: 345px) {
+
+.background-transparent {
+    width: 100%;
+    height: 300px;
+
+    background: linear-gradient(
+    to right,
+    rgba(22, 153, 147, 0.8),
+    rgba(104, 86, 160, 0.8)
+  ),
+    url("../MediaFiles/kozani\ 1.png");
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+
+}
+
+.top-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+  gap: 30px;
+  width: 100%;
+}
+
+
+.section-with-bg {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.social-media-part {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+  justify-content: space-between;
+  color: white;
+}
+
+.logo-part {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.logo-part img {
+  width: 203px;
+  height: 49px;
+}
+
+.login-button {
+  text-decoration: none;
+  color: white;
+  font-size: 10px;
+
+  transition: 0.6s ease-in-out;
+}
+
+.login-button:hover {
+  color: #1df2f0;
+  transform: scale(1.1);
+}
+
+.fab {
+  font-size: 15px; 
+  color: #FFFFFF;
+
+  transition: 0.6s ease-in-out;
+}
+
+.fab.fa-facebook:hover{
+  color: #1df2f0;
+  transform: scale(1.1) rotate(5deg);
+}
+
+.fab.fa-instagram:hover{
+  color: #1df2f0;
+  transform: scale(1.1) rotate(5deg);
+}
+
+.fab.fa-linkedin:hover{
+  color: #1df2f0;
+  transform: scale(1.1) rotate(5deg);
+}
+
+.fab.fa-tiktok:hover{
+  color: 	#1df2f0;
+  transform: scale(1.1) rotate(5deg);
+}
+
+.main-heading-top {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.main-heading-top h1 {
+  font-weight: 800;
+  font-size: 25px;
+  color: #FFFFFF;
+  line-height: 10px;
+  height: auto;
+  width: 100%;
+}
+
+.days-left {
+  line-height: 0.1px;
+  color: #F9F7F3;
+  font-size: 32px;
+  font-weight: 800;
+  width: 100%;
+  margin: 0;
+}
+
+.number-days {
+  line-height: 1;
+  margin: 0;
+  color: #FFE082;
+  font-size: 45px;
+  font-weight: 800;
+}
+
+.days-left-top-section {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin-top: 0px;
+  height: auto;
+}
+
+.colorful-heading-top-part {
+    background-color: white;
+    display: inline-block;
+    padding: 4px;
+    margin-top: 15px;
+    width: 80%;
+}
+
+.colorful-heading-top-part h1 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1;
+    display: inline-block; 
+    background: linear-gradient(to right, #4712E5, #FF4845);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    padding: 10px;
+    padding-right: 10px;
+    width: 80%;
+}
+
+.card-example-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.card-example-heading h1,
+.form-fillin-heading h1 {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 1;
+  display: inline-block; 
+  background: linear-gradient(to right, #0FA3B1, #6856A0);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+  padding: 0;
+}
+
+.card-example-heading p,
+.form-fillin-heading p {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1;
+  font-style: italic;
+  margin-top: 3px;
+  padding: 0;
+  color: #606060;
+  text-align: center;
+}   
+
+.card-example-section {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
+.example-img-section-left img {
+    width: 410px;
+    height: 446px;
+}
+
+.right-section img {
+    width: 132px;
+    height: 132px;
+}
+
+.right-section p {
+    font-size: 32px;
+    font-weight: 800;
+    color: #FF4845;
+    margin: 0;
+    padding: 0;
+}
+
+.right-section {
+    margin-top: 180px;
+}
+
+.form-fillin-heading {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.gradient-input-form-part {
+  font-size: 12px;
+  font-style: italic;
+  padding: 2px 2px;
+  border: 0.5px solid transparent;
+  border-radius: 0px;
+  background-image: 
+  linear-gradient(#fff, #fff),
+  linear-gradient(45deg, #0FA3B1, #6856A0); 
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  outline: none;
+  width: 315px;
+  height: 30px;
+  text-align: center;
+}
+
+.form-structure {
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-top: 20px;
+
+}
+
+.form-part-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-part-input p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1;
+  width: auto;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  padding: 0;
+  display: inline-block; 
+  background: linear-gradient(to right, #0FA3B1, #6856A0);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.form-structure button {
+  width: 173px;
+  height: 30px;
+  background-color: #0FA3B1;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 16px;
+  border: 0px;
+  margin-top: 10px;
+
+  background: linear-gradient(to right, #6856A0 50%, #0FA3B1 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+
+  cursor: pointer;
+
+  transition: background-position 0.4s ease, color 0.4s ease;
+  transition: 0.8s;
+}
+
+.form-structure button:hover {
+  background-position: left bottom;
+  transform: scale(1.05);
+}
+
+.footer-section {
+  margin-top: 50px;
+  padding: 0;
+  width: 100%;
+  height: auto;
+
+  background: linear-gradient(
+    to right,
+    rgba(22, 153, 147, 0.8),
+    rgba(104, 86, 160, 0.8)
+  );
+  background-size: cover;
+  background-position: center;
+}
+
+.contact-info-footer-section {
+  margin-top: 10px;
+}
+
+.phone-number-footer,
+.address-footer,
+.email-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.phone-number-footer h2,
+.address-footer h2,
+.email-footer h2 {
+  margin-top: 7px;
+  padding: 0;
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.phone-number-footer p,
+.address-footer p,
+.email-footer p {
+  margin: 0;
+  padding: 0;
+  font-size: 19px;
+  line-height: 1;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.footer-section-inside {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 30px;
+}
+
+.logo-part-footer img {
+  width: 203px;
+  height: 49px;
+}
+
+}
+
+@media (max-width: 344px) {
+
+.background-transparent {
+    width: 100%;
+    height: 270px;
+
+    background: linear-gradient(
+    to right,
+    rgba(22, 153, 147, 0.8),
+    rgba(104, 86, 160, 0.8)
+  ),
+    url("../MediaFiles/kozani\ 1.png");
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+
+}
+
+.top-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  gap: 25px;
+  width: 100%;
+}
+
+.section-with-bg {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.social-media-part {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+  justify-content: space-between;
+  color: white;
+}
+
+.logo-part {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.logo-part img {
+  width: 153px;
+  height: 35px;
+}
+
+.login-button {
+  text-decoration: none;
+  color: white;
+  font-size: 8px;
+
+  transition: 0.6s ease-in-out;
+}
+
+.login-button:hover {
+  color: #1df2f0;
+  transform: scale(1.1);
+}
+
+.fab {
+  font-size: 15px; 
+  color: #FFFFFF;
+
+  transition: 0.6s ease-in-out;
+}
+
+.fab.fa-facebook:hover{
+  color: #1df2f0;
+  transform: scale(1.1) rotate(5deg);
+}
+
+.fab.fa-instagram:hover{
+  color: #1df2f0;
+  transform: scale(1.1) rotate(5deg);
+}
+
+.fab.fa-linkedin:hover{
+  color: #1df2f0;
+  transform: scale(1.1) rotate(5deg);
+}
+
+.fab.fa-tiktok:hover{
+  color: 	#1df2f0;
+  transform: scale(1.1) rotate(5deg);
+}
+
+.main-heading-top {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.main-heading-top h1 {
+  font-weight: 800;
+  font-size: 22px;
+  color: #FFFFFF;
+  line-height: 10px;
+  height: auto;
+  width: 100%;
+}
+
+.days-left {
+  line-height: 0.1px;
+  color: #F9F7F3;
+  font-size: 32px;
+  font-weight: 800;
+  width: 100%;
+  margin: 0;
+}
+
+.number-days {
+  line-height: 1;
+  margin: 0;
+  color: #FFE082;
+  font-size: 35px;
+  font-weight: 800;
+}
+
+.days-left-top-section {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin-top: 0px;
+  height: auto;
+}
+
+.colorful-heading-top-part {
+    background-color: white;
+    display: inline-block;
+    padding: 4px;
+    margin-top: 15px;
+    width: 80%;
+}
+
+.colorful-heading-top-part h1 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1;
+    display: inline-block; 
+    background: linear-gradient(to right, #4712E5, #FF4845);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    padding: 10px;
+    padding-right: 10px;
+    width: 80%;
+}
+
+.card-example-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.card-example-heading h1,
+.form-fillin-heading h1 {
+  font-size: 16px;
+  text-align: center;
+  width: 80%;
+  font-weight: 800;
+  line-height: 1;
+  display: inline-block; 
+  background: linear-gradient(to right, #0FA3B1, #6856A0);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+  padding: 0;
+}
+
+.card-example-heading p,
+.form-fillin-heading p {
+  font-size: 10px;
+  text-align: center;
+  width: 80%;
+  font-weight: 600;
+  line-height: 1;
+  font-style: italic;
+  margin-top: 3px;
+  padding: 0;
+  color: #606060;
+  text-align: center;
+}   
+
+.card-example-section {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
+.example-img-section-left img {
+    width: 410px;
+    height: 446px;
+}
+
+.right-section img {
+    width: 132px;
+    height: 132px;
+}
+
+.right-section p {
+    font-size: 32px;
+    font-weight: 800;
+    color: #FF4845;
+    margin: 0;
+    padding: 0;
+}
+
+.right-section {
+    margin-top: 180px;
+}
+
+.form-fillin-heading {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.gradient-input-form-part {
+  font-size: 10px;
+  font-style: italic;
+  padding: 2px 2px;
+  border: 0.5px solid transparent;
+  border-radius: 0px;
+  background-image: 
+  linear-gradient(#fff, #fff),
+  linear-gradient(45deg, #0FA3B1, #6856A0); 
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  outline: none;
+  width: 275px;
+  height: 30px;
+  text-align: center;
+}
+
+.form-structure {
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-top: 20px;
+
+}
+
+.form-part-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-part-input p {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1;
+  width: auto;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  padding: 0;
+  display: inline-block; 
+  background: linear-gradient(to right, #0FA3B1, #6856A0);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.form-structure button {
+  width: 173px;
+  height: 30px;
+  background-color: #0FA3B1;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 16px;
+  border: 0px;
+  margin-top: 10px;
+
+  background: linear-gradient(to right, #6856A0 50%, #0FA3B1 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+
+  cursor: pointer;
+
+  transition: background-position 0.4s ease, color 0.4s ease;
+  transition: 0.8s;
+}
+
+.form-structure button:hover {
+  background-position: left bottom;
+  transform: scale(1.05);
+}
+
+.footer-section {
+  margin-top: 50px;
+  padding: 0;
+  width: 100%;
+  height: auto;
+
+  background: linear-gradient(
+    to right,
+    rgba(22, 153, 147, 0.8),
+    rgba(104, 86, 160, 0.8)
+  );
+  background-size: cover;
+  background-position: center;
+}
+
+.contact-info-footer-section {
+  margin-top: 10px;
+}
+
+.phone-number-footer,
+.address-footer,
+.email-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.phone-number-footer h2,
+.address-footer h2,
+.email-footer h2 {
+  margin-top: 0.1px;
+  padding: 0;
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.phone-number-footer p,
+.address-footer p,
+.email-footer p {
+  margin-top: 0.1px;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.footer-section-inside {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 20px;
+}
+
+.logo-part-footer img {
+  width: 203px;
+  height: 49px;
+}
+
+}

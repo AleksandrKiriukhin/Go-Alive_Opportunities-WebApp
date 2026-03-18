@@ -1,0 +1,1182 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media (min-width: 1025px) {
+
+.background-transparent {
+    width: 100%;
+    height: 500px;
+
+    background: linear-gradient(
+    to right,
+    rgba(22, 153, 147, 0.8),
+    rgba(104, 86, 160, 0.8)
+  ),
+    url("../MediaFiles/kozani\ 1.png");
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+
+}
+
+.top-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.section-with-bg {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.social-media-part {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+  color: white;
+}
+
+.logo-part {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.login-button {
+  text-decoration: none;
+  color: white;
+
+  transition: 0.6s ease-in-out;
+}
+
+.login-button:hover {
+  color: #1df2f0;
+  transform: scale(1.1);
+}
+
+.fab {
+  font-size: 30px; 
+  color: #FFFFFF;
+
+  transition: 0.6s ease-in-out;
+}
+
+.fab.fa-facebook:hover{
+  color: #1df2f0;
+  transform: scale(1.1) rotate(5deg);
+}
+
+.fab.fa-instagram:hover{
+  color: #1df2f0;
+  transform: scale(1.1) rotate(5deg);
+}
+
+.fab.fa-linkedin:hover{
+  color: #1df2f0;
+  transform: scale(1.1) rotate(5deg);
+}
+
+.fab.fa-tiktok:hover{
+  color: 	#1df2f0;
+  transform: scale(1.1) rotate(5deg);
+}
+
+.main-heading-top {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.main-heading-top h1 {
+  font-weight: 800;
+  font-size: 32px;
+  color: #FFFFFF;
+  line-height: 1px;
+  height: auto;
+}
+
+.days-left {
+  line-height: 0.1px;
+  color: #F9F7F3;
+  font-size: 32px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.number-days {
+  line-height: 1;
+  margin: 0;
+  color: #FFE082;
+  font-size: 74px;
+  font-weight: 800;
+}
+
+.days-left-top-section {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin-top: 5px;
+  height: auto;
+}
+
+.hot-event-card {
+  position: absolute;
+  top: 460px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10; 
+  width: 715px;
+  height: 421px; 
+  background: white;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+  border-radius: 0px;
+}
+
+.hot-event-card {
+  margin: 0;
+  padding: 0;
+}
+
+
+.button-log-in {
+  position: absolute;
+  bottom: -20px; 
+  right: 240px;  
+} 
+
+.button-log-in button {
+  width: 213px;
+  height: 50px;
+  /* background-color: #0FA3B1; */
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 24px;
+  border: 0px;
+
+  background: linear-gradient(to right, #6856A0 50%, #0FA3B1 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+
+  cursor: pointer;
+
+  transition: background-position 0.4s ease, color 0.4s ease;
+  transition: 0.8s;
+}
+
+.button-log-in button:hover {
+  background-position: left bottom;
+  transform: scale(1.05);
+}
+
+.form-structure {
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-top: 65px;
+
+} 
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-section p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1;
+  width: auto;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  padding: 0;
+  display: inline-block; 
+  background: linear-gradient(to right, #0FA3B1, #6856A0);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-input-form-part {
+  font-size: 20px;
+  font-style: italic;
+  padding: 2px 2px;
+  border: 0.5px solid transparent;
+  border-radius: 0px;
+  background-image: 
+  linear-gradient(#fff, #fff),
+  linear-gradient(45deg, #0FA3B1, #6856A0); 
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  outline: none;
+  width: 515px;
+  height: 80px;
+  text-align: center;
+}
+
+.footer-section {
+  margin-top: 240px;
+  padding: 0;
+  width: 100%;
+  height: 735px;
+
+  background: linear-gradient(
+    to right,
+    rgba(22, 153, 147, 0.8),
+    rgba(104, 86, 160, 0.8)
+  );
+  background-size: cover;
+  background-position: center;
+}
+
+.contact-info-footer-section {
+  margin-top: 10px;
+}
+
+.phone-number-footer,
+.address-footer,
+.email-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.phone-number-footer h2,
+.address-footer h2,
+.email-footer h2 {
+  margin-top: 20px;
+  padding: 0;
+  font-size: 24px;
+  line-height: 1;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.phone-number-footer p,
+.address-footer p,
+.email-footer p {
+  margin: 0;
+  padding: 0;
+  font-size: 32px;
+  line-height: 1;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.footer-section-inside {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 30px;
+}
+
+.logo-part-footer img {
+  width: 343px;
+  height: 79px;
+}
+
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+
+  .background-transparent {
+    width: 100%;
+    height: 500px;
+
+    background: linear-gradient(
+    to right,
+    rgba(22, 153, 147, 0.8),
+    rgba(104, 86, 160, 0.8)
+  ),
+    url("../MediaFiles/kozani\ 1.png");
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+
+}
+
+.top-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.section-with-bg {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.social-media-part {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+  color: white;
+}
+
+.logo-part {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.login-button {
+  text-decoration: none;
+  color: white;
+
+  transition: 0.6s ease-in-out;
+}
+
+.login-button:hover {
+  color: #1df2f0;
+  transform: scale(1.1);
+}
+
+.fab {
+  font-size: 30px; 
+  color: #FFFFFF;
+
+  transition: 0.6s ease-in-out;
+}
+
+.fab.fa-facebook:hover{
+  color: #1df2f0;
+  transform: scale(1.1) rotate(5deg);
+}
+
+.fab.fa-instagram:hover{
+  color: #1df2f0;
+  transform: scale(1.1) rotate(5deg);
+}
+
+.fab.fa-linkedin:hover{
+  color: #1df2f0;
+  transform: scale(1.1) rotate(5deg);
+}
+
+.fab.fa-tiktok:hover{
+  color: 	#1df2f0;
+  transform: scale(1.1) rotate(5deg);
+}
+
+.main-heading-top {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.main-heading-top h1 {
+  font-weight: 800;
+  font-size: 32px;
+  color: #FFFFFF;
+  line-height: 1px;
+  height: auto;
+}
+
+.days-left {
+  line-height: 0.1px;
+  color: #F9F7F3;
+  font-size: 32px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.number-days {
+  line-height: 1;
+  margin: 0;
+  color: #FFE082;
+  font-size: 74px;
+  font-weight: 800;
+}
+
+.days-left-top-section {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin-top: 5px;
+  height: auto;
+}
+
+.hot-event-card {
+  position: absolute;
+  top: 460px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10; 
+  width: 715px;
+  height: 421px; 
+  background: white;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+  border-radius: 0px;
+}
+
+.hot-event-card {
+  margin: 0;
+  padding: 0;
+}
+
+
+.button-log-in {
+  position: absolute;
+  bottom: -20px; 
+  right: 240px;  
+} 
+
+.button-log-in button {
+  width: 213px;
+  height: 50px;
+  /* background-color: #0FA3B1; */
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 24px;
+  border: 0px;
+
+  background: linear-gradient(to right, #6856A0 50%, #0FA3B1 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+
+  cursor: pointer;
+
+  transition: background-position 0.4s ease, color 0.4s ease;
+  transition: 0.8s;
+}
+
+.button-log-in button:hover {
+  background-position: left bottom;
+  transform: scale(1.05);
+}
+
+.form-structure {
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-top: 65px;
+
+} 
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-section p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1;
+  width: auto;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  padding: 0;
+  display: inline-block; 
+  background: linear-gradient(to right, #0FA3B1, #6856A0);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-input-form-part {
+  font-size: 20px;
+  font-style: italic;
+  padding: 2px 2px;
+  border: 0.5px solid transparent;
+  border-radius: 0px;
+  background-image: 
+  linear-gradient(#fff, #fff),
+  linear-gradient(45deg, #0FA3B1, #6856A0); 
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  outline: none;
+  width: 515px;
+  height: 80px;
+  text-align: center;
+}
+
+.footer-section {
+  margin-top: 240px;
+  padding: 0;
+  width: 100%;
+  height: 735px;
+
+  background: linear-gradient(
+    to right,
+    rgba(22, 153, 147, 0.8),
+    rgba(104, 86, 160, 0.8)
+  );
+  background-size: cover;
+  background-position: center;
+}
+
+.contact-info-footer-section {
+  margin-top: 10px;
+}
+
+.phone-number-footer,
+.address-footer,
+.email-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.phone-number-footer h2,
+.address-footer h2,
+.email-footer h2 {
+  margin-top: 20px;
+  padding: 0;
+  font-size: 24px;
+  line-height: 1;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.phone-number-footer p,
+.address-footer p,
+.email-footer p {
+  margin: 0;
+  padding: 0;
+  font-size: 32px;
+  line-height: 1;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.footer-section-inside {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 30px;
+}
+
+.logo-part-footer img {
+  width: 343px;
+  height: 79px;
+}
+
+}
+
+@media (max-width: 767px) and (min-width: 345px) {
+
+  .background-transparent {
+    width: 100%;
+    height: 300px;
+
+    background: linear-gradient(
+    to right,
+    rgba(22, 153, 147, 0.8),
+    rgba(104, 86, 160, 0.8)
+  ),
+    url("../MediaFiles/kozani\ 1.png");
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+
+}
+
+.top-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  gap: 50px;
+  width: 100%;
+}
+
+
+.logo-part {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.logo-part img {
+  width: 203px;
+  height: 49px;
+}
+
+
+.section-with-bg {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.social-media-part {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  justify-content: space-between;
+  color: white;
+}
+
+.login-button {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  transition: 0.6s ease-in-out;
+}
+
+.login-button:hover {
+  color: #1df2f0;
+  transform: scale(1.1);
+}
+
+.fab {
+  font-size: 15px; 
+  color: #FFFFFF;
+
+  transition: 0.6s ease-in-out;
+}
+
+.fab.fa-facebook:hover{
+  color: #1df2f0;
+  transform: scale(1.1) rotate(5deg);
+}
+
+.fab.fa-instagram:hover{
+  color: #1df2f0;
+  transform: scale(1.1) rotate(5deg);
+}
+
+.fab.fa-linkedin:hover{
+  color: #1df2f0;
+  transform: scale(1.1) rotate(5deg);
+}
+
+.fab.fa-tiktok:hover{
+  color: 	#1df2f0;
+  transform: scale(1.1) rotate(5deg);
+}
+
+.main-heading-top {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+
+.main-heading-top h1 {
+  font-weight: 800;
+  font-size: 32px;
+  color: #FFFFFF;
+  line-height: 1px;
+  height: auto;
+}
+
+.days-left {
+  line-height: 0.1px;
+  color: #F9F7F3;
+  font-size: 20px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.number-days {
+  line-height: 1;
+  margin: 0;
+  color: #FFE082;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.days-left-top-section {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin-top: 5px;
+  height: auto;
+}
+
+.hot-event-card {
+  position: absolute;
+  top: 300px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10; 
+  width: 350px;
+  height: 281px; 
+  background: white;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+  border-radius: 0px;
+}
+
+.hot-event-card {
+  margin: 0;
+  padding: 0;
+}
+
+
+.button-log-in {
+  position: absolute;
+  bottom: -15px; 
+  right: 110px;  
+} 
+
+.button-log-in button {
+  width: 123px;
+  height: 30px;
+  /* background-color: #0FA3B1; */
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 20px;
+  border: 0px;
+
+  background: linear-gradient(to right, #6856A0 50%, #0FA3B1 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+
+  cursor: pointer;
+
+  transition: background-position 0.4s ease, color 0.4s ease;
+  transition: 0.8s;
+}
+
+.button-log-in button:hover {
+  background-position: left bottom;
+  transform: scale(1.05);
+}
+
+.form-structure {
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-top: 45px;
+
+} 
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-section p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1;
+  width: auto;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  padding: 0;
+  display: inline-block; 
+  background: linear-gradient(to right, #0FA3B1, #6856A0);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-input-form-part {
+  font-size: 20px;
+  font-style: italic;
+  padding: 2px 2px;
+  border: 0.5px solid transparent;
+  border-radius: 0px;
+  background-image: 
+  linear-gradient(#fff, #fff),
+  linear-gradient(45deg, #0FA3B1, #6856A0); 
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  outline: none;
+  width: 215px;
+  height: 50px;
+  text-align: center;
+}
+
+.footer-section {
+  margin-top: 190px;
+  padding: 0;
+  width: 100%;
+  height: 735px;
+
+  background: linear-gradient(
+    to right,
+    rgba(22, 153, 147, 0.8),
+    rgba(104, 86, 160, 0.8)
+  );
+  background-size: cover;
+  background-position: center;
+}
+
+.contact-info-footer-section {
+  margin-top: 10px;
+}
+
+.phone-number-footer,
+.address-footer,
+.email-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.phone-number-footer h2,
+.address-footer h2,
+.email-footer h2 {
+  margin-top: 0.1px;
+  padding: 0;
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.phone-number-footer p,
+.address-footer p,
+.email-footer p {
+  margin-top: 0.1px;
+  padding: 0;
+  font-size: 19px;
+  line-height: 1;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.footer-section-inside {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 30px;
+}
+
+.logo-part-footer img {
+  width: 203px;
+  height: 49px;
+}
+
+}
+
+@media (max-width: 344px) {
+
+  .background-transparent {
+    width: 100%;
+    height: 300px;
+
+    background: linear-gradient(
+    to right,
+    rgba(22, 153, 147, 0.8),
+    rgba(104, 86, 160, 0.8)
+  ),
+    url("../MediaFiles/kozani\ 1.png");
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+
+}
+
+.top-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  gap: 25px;
+  width: 100%;
+}
+
+.section-with-bg {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.social-media-part {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+  justify-content: space-between;
+  color: white;
+}
+
+.logo-part {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.logo-part img {
+  width: 153px;
+  height: 35px;
+}
+
+.login-button {
+  text-decoration: none;
+  color: white;
+  font-size: 8px;
+
+  transition: 0.6s ease-in-out;
+}
+
+.login-button:hover {
+  color: #1df2f0;
+  transform: scale(1.1);
+}
+
+.fab {
+  font-size: 15px; 
+  color: #FFFFFF;
+
+  transition: 0.6s ease-in-out;
+}
+
+.fab.fa-facebook:hover{
+  color: #1df2f0;
+  transform: scale(1.1) rotate(5deg);
+}
+
+.fab.fa-instagram:hover{
+  color: #1df2f0;
+  transform: scale(1.1) rotate(5deg);
+}
+
+.fab.fa-linkedin:hover{
+  color: #1df2f0;
+  transform: scale(1.1) rotate(5deg);
+}
+
+.fab.fa-tiktok:hover{
+  color: 	#1df2f0;
+  transform: scale(1.1) rotate(5deg);
+}
+
+.main-heading-top {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+
+.main-heading-top h1 {
+  font-weight: 800;
+  font-size: 22px;
+  color: #FFFFFF;
+  line-height: 1px;
+  height: auto;
+}
+
+.days-left {
+  line-height: 0.1px;
+  color: #F9F7F3;
+  font-size: 20px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.number-days {
+  line-height: 1;
+  margin: 0;
+  color: #FFE082;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.days-left-top-section {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin-top: 5px;
+  height: auto;
+}
+
+.hot-event-card {
+  position: absolute;
+  top: 280px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10; 
+  width: 260px;
+  height: 251px; 
+  background: white;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+  border-radius: 0px;
+}
+
+.hot-event-card {
+  margin: 0;
+  padding: 0;
+}
+
+
+.button-log-in {
+  position: absolute;
+  bottom: -15px; 
+  right: 78px;  
+} 
+
+.button-log-in button {
+  width: 103px;
+  height: 25px;
+  /* background-color: #0FA3B1; */
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 15px;
+  border: 0px;
+
+  background: linear-gradient(to right, #6856A0 50%, #0FA3B1 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+
+  cursor: pointer;
+
+  transition: background-position 0.4s ease, color 0.4s ease;
+  transition: 0.8s;
+}
+
+.button-log-in button:hover {
+  background-position: left bottom;
+  transform: scale(1.05);
+}
+
+.form-structure {
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-top: 45px;
+
+} 
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-section p {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1;
+  width: auto;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  padding: 0;
+  display: inline-block; 
+  background: linear-gradient(to right, #0FA3B1, #6856A0);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-input-form-part {
+  font-size: 13px;
+  font-style: italic;
+  padding: 2px 2px;
+  border: 0.5px solid transparent;
+  border-radius: 0px;
+  background-image: 
+  linear-gradient(#fff, #fff),
+  linear-gradient(45deg, #0FA3B1, #6856A0); 
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  outline: none;
+  width: 185px;
+  height: 45px;
+  text-align: center;
+}
+
+.footer-section {
+  margin-top: 160px;
+  padding: 0;
+  width: 100%;
+  height: 735px;
+
+  background: linear-gradient(
+    to right,
+    rgba(22, 153, 147, 0.8),
+    rgba(104, 86, 160, 0.8)
+  );
+  background-size: cover;
+  background-position: center;
+}
+
+.contact-info-footer-section {
+  margin-top: 10px;
+}
+
+.phone-number-footer,
+.address-footer,
+.email-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.phone-number-footer h2,
+.address-footer h2,
+.email-footer h2 {
+  margin-top: 0.1px;
+  padding: 0;
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.phone-number-footer p,
+.address-footer p,
+.email-footer p {
+  margin-top: 0.1px;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.footer-section-inside {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 20px;
+}
+
+.logo-part-footer img {
+  width: 203px;
+  height: 49px;
+}
+
+}
